@@ -13,14 +13,15 @@ body {
 
 ol {
     font-size: 32px;
+    text-align:left;
 }
 
 li {
     font-size: 24px;
 }
 
-#myDiv {
-    padding-top: 200px;
+#expensive {
+    padding-top: 100px;
 }
 
 h2 {
@@ -30,30 +31,34 @@ h2 {
 
 <body>
     <div class="container">
-        <font face="Verdana">
-            <h2>Alden's Christmas List</h2>
-            <ol id="list">
-                <li>Books (anything you think I would like)</li>
-                <li>New Phone Case - <a href="https://www.amazon.com/Dretal-Absorption-Ultra-thin-Protective-Generation/dp/B0713QLPXG/ref=sr_1_4?keywords=moto+e4+case&qid=1576551475&sr=8-4">Example</a></li>
-                <li>Over-Ear Headphones - <a href="https://www.amazon.com/OneOdio-Adapter-Free-Headphones-Professional-Telescopic/dp/B01N6ZJH96?tag=musiccritic-search-20">Example</a></li>
-                <li>Xbox One Controller - <a href="https://www.amazon.com/dp/B01BQ0VP0G?tag=georiot-us-default-20&th=1&ascsubtag=trd-8374152593638091264-20">Example</a></li>
-                <li>Flat back yard</li>
-            </ol>
-    </div> <!-- End of container 1 -->
-    <div class="container" id="myDiv">
-        <h2>Other Things That Are Probably Too Expensive</h2>
-        <ul>
-            <li>
-            	<a href="https://www.sprint.com/en/shop/cell-phones/samsung-galaxy-s8-preowned.html?ensembleId=RCCG950UBLK&">Samsung S8 Pre-Owned</a> and 
-            	<a href="https://www.amazon.com/dp/B06WGPWYL8">case</a> or 
-            	<a href="https://www.sprint.com/en/shop/cell-phones/samsung-galaxy-a10-e.html?ensembleId=SPHA102UBLK&contractName=0-yr-lb-18months&deviceQuantity=1&tep=true&protectionPlan=1100264&plan=pln11280006prd&service=PDSBYUP2">Galaxy A10e</a> and 
-            	<a href="https://www.amazon.com/Galaxy-A10E-Case-Asmart-Blue/dp/B07T651LRS/ref=sr_1_10?crid=2BWNGUK460Q1Z&keywords=galaxy%2Ba10e%2Bcase&qid=1576552770&sprefix=galaxy%2BA1%2Caps%2C232&sr=8-10&th=1">case</a>
-            </li>
-            <li>
-            	<a href="https://opengoaaalusa.com/products/open-goaaal-soccer-goal-rebounder-standard-size?pr_prod_strat=copurchase&pr_rec_pid=506339754035&pr_ref_pid=506618150963&pr_seq=uniform">Soccer Goal Rebounder Thing for the Back Yard</a>
-            </li>
-        </ul>
-    </div> <!-- End of container 2 -->
+        <div class="col-md">
+            <font face="Verdana">
+                <h2>Alden's Christmas List</h2>
+                <ol id="list">
+                    <li>Books (anything you think I would like)</li>
+                    <li>New Phone Case - <a href="https://www.amazon.com/Dretal-Absorption-Ultra-thin-Protective-Generation/dp/B0713QLPXG/ref=sr_1_4?keywords=moto+e4+case&qid=1576551475&sr=8-4">Example</a></li>
+                    <li>Over-Ear Headphones - <a href="https://www.amazon.com/OneOdio-Adapter-Free-Headphones-Professional-Telescopic/dp/B01N6ZJH96?tag=musiccritic-search-20">Example</a></li>
+                    <li>Xbox One Controller - <a href="https://www.amazon.com/dp/B01BQ0VP0G?tag=georiot-us-default-20&th=1&ascsubtag=trd-8374152593638091264-20">Example</a></li>
+                    <li>Flat back yard</li>
+                </ol>
+        </div>
+        <div class="col-md"><a href="https://aldencutler.github.io/Laith-Christmas-List/">Laith's List</a></div>
+        <div class="col-md" id="expensive">
+            <h2>Other Things That Are Probably Too Expensive</h2>
+            <ul>
+                <li>
+                    <a href="https://www.sprint.com/en/shop/cell-phones/samsung-galaxy-s8-preowned.html?ensembleId=RCCG950UBLK&">Samsung S8 Pre-Owned</a> and
+                    <a href="https://www.amazon.com/dp/B06WGPWYL8">case</a> or
+                    <a href="https://www.sprint.com/en/shop/cell-phones/samsung-galaxy-a10-e.html?ensembleId=SPHA102UBLK&contractName=0-yr-lb-18months&deviceQuantity=1&tep=true&protectionPlan=1100264&plan=pln11280006prd&service=PDSBYUP2">Galaxy A10e</a> and
+                    <a href="https://www.amazon.com/Galaxy-A10E-Case-Asmart-Blue/dp/B07T651LRS/ref=sr_1_10?crid=2BWNGUK460Q1Z&keywords=galaxy%2Ba10e%2Bcase&qid=1576552770&sprefix=galaxy%2BA1%2Caps%2C232&sr=8-10&th=1">case</a>
+                </li>
+                <li>
+                    <a href="https://opengoaaalusa.com/products/open-goaaal-soccer-goal-rebounder-standard-size?pr_prod_strat=copurchase&pr_rec_pid=506339754035&pr_ref_pid=506618150963&pr_seq=uniform">Soccer Goal Rebounder Thing for the Back Yard</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
 </body>
 
 </html>
